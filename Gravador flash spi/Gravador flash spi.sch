@@ -1,0 +1,337 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MCU_Module:Arduino_UNO_R3 A1
+U 1 1 5C363447
+P 2750 2950
+F 0 "A1" H 2750 4128 50  0000 C CNN
+F 1 "Arduino_UNO_R3" H 2750 4037 50  0000 C CNN
+F 2 "Modules:Arduino_UNO_R3_WithMountingHoles" H 2900 1900 50  0001 L CNN
+F 3 "https://www.arduino.cc/en/Main/arduinoBoardUno" H 2550 4000 50  0001 C CNN
+	1    2750 2950
+	1    0    0    -1  
+$EndComp
+Text GLabel 2750 4350 3    50   Input ~ 0
+GND
+Wire Wire Line
+	2750 4350 2750 4150
+Wire Wire Line
+	2750 4150 2650 4150
+Wire Wire Line
+	2650 4150 2650 4050
+Connection ~ 2750 4150
+Wire Wire Line
+	2750 4150 2750 4050
+Wire Wire Line
+	2750 4150 2850 4150
+Wire Wire Line
+	2850 4150 2850 4050
+Text GLabel 3200 1850 2    50   Input ~ 0
+5V
+Text GLabel 2950 1700 2    50   Input ~ 0
+3.3V
+Wire Wire Line
+	3200 1850 2950 1850
+Wire Wire Line
+	2950 1850 2950 1950
+Wire Wire Line
+	2950 1700 2850 1700
+Wire Wire Line
+	2850 1700 2850 1950
+Text GLabel 2000 3150 0    50   Input ~ 0
+PB0
+Wire Wire Line
+	2000 3150 2250 3150
+Text GLabel 1950 3350 0    50   Input ~ 0
+CS
+Wire Wire Line
+	1950 3350 2250 3350
+Text GLabel 1950 3450 0    50   Input ~ 0
+MOSI
+Text GLabel 1950 3550 0    50   Input ~ 0
+MISO
+Text GLabel 1950 3650 0    50   Input ~ 0
+SCK
+Wire Wire Line
+	1950 3650 2250 3650
+Wire Wire Line
+	2250 3550 1950 3550
+Wire Wire Line
+	1950 3450 2250 3450
+NoConn ~ 3250 3450
+NoConn ~ 3250 3350
+NoConn ~ 3250 3250
+NoConn ~ 3250 3150
+NoConn ~ 3250 3050
+NoConn ~ 3250 2950
+NoConn ~ 2250 2350
+NoConn ~ 2250 2450
+NoConn ~ 2250 2550
+NoConn ~ 2250 2650
+NoConn ~ 2250 2750
+NoConn ~ 2250 2850
+NoConn ~ 2250 2950
+NoConn ~ 2250 3050
+NoConn ~ 3250 3650
+NoConn ~ 3250 3750
+NoConn ~ 3250 2550
+NoConn ~ 3250 2350
+NoConn ~ 3250 2750
+$Comp
+L Device:R R1
+U 1 1 5C364D2E
+P 5350 1150
+F 0 "R1" H 5420 1196 50  0000 L CNN
+F 1 "10k" H 5420 1105 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805" V 5280 1150 50  0001 C CNN
+F 3 "~" H 5350 1150 50  0001 C CNN
+	1    5350 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5C364D80
+P 5350 1650
+F 0 "R2" H 5420 1696 50  0000 L CNN
+F 1 "15k" H 5420 1605 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805" V 5280 1650 50  0001 C CNN
+F 3 "~" H 5350 1650 50  0001 C CNN
+	1    5350 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 5C364DC4
+P 7400 1150
+F 0 "R5" H 7470 1196 50  0000 L CNN
+F 1 "10k" H 7470 1105 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805" V 7330 1150 50  0001 C CNN
+F 3 "~" H 7400 1150 50  0001 C CNN
+	1    7400 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R6
+U 1 1 5C364E5C
+P 7400 1650
+F 0 "R6" H 7470 1696 50  0000 L CNN
+F 1 "15k" H 7470 1605 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805" V 7330 1650 50  0001 C CNN
+F 3 "~" H 7400 1650 50  0001 C CNN
+	1    7400 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 5C364E9A
+P 6350 1150
+F 0 "R3" H 6420 1196 50  0000 L CNN
+F 1 "10k" H 6420 1105 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805" V 6280 1150 50  0001 C CNN
+F 3 "~" H 6350 1150 50  0001 C CNN
+	1    6350 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 5C364EDC
+P 6350 1600
+F 0 "R4" H 6420 1646 50  0000 L CNN
+F 1 "15k" H 6420 1555 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805" V 6280 1600 50  0001 C CNN
+F 3 "~" H 6350 1600 50  0001 C CNN
+	1    6350 1600
+	1    0    0    -1  
+$EndComp
+Text GLabel 6350 1900 3    50   Input ~ 0
+GND
+Text GLabel 7400 1900 3    50   Input ~ 0
+GND
+Text GLabel 5350 1900 3    50   Input ~ 0
+GND
+Text GLabel 5250 900  0    50   Input ~ 0
+CS
+Text GLabel 7200 900  0    50   Input ~ 0
+MOSI
+Text GLabel 6150 900  0    50   Input ~ 0
+SCK
+Wire Wire Line
+	5250 900  5350 900 
+Wire Wire Line
+	5350 900  5350 1000
+Wire Wire Line
+	5350 1300 5350 1400
+Wire Wire Line
+	5350 1800 5350 1900
+Wire Wire Line
+	6150 900  6350 900 
+Wire Wire Line
+	6350 900  6350 1000
+Wire Wire Line
+	6350 1300 6350 1350
+Wire Wire Line
+	6350 1750 6350 1900
+Wire Wire Line
+	7200 900  7400 900 
+Wire Wire Line
+	7400 900  7400 1000
+Wire Wire Line
+	7400 1300 7400 1400
+Wire Wire Line
+	7400 1800 7400 1900
+Text GLabel 5500 1400 2    50   Input ~ 0
+CS_L
+Wire Wire Line
+	5350 1400 5500 1400
+Connection ~ 5350 1400
+Wire Wire Line
+	5350 1400 5350 1500
+Text GLabel 7600 1400 2    50   Input ~ 0
+MOSI_L
+Text GLabel 6550 1350 2    50   Input ~ 0
+SCK_L
+Wire Wire Line
+	6550 1350 6350 1350
+Connection ~ 6350 1350
+Wire Wire Line
+	6350 1350 6350 1450
+Wire Wire Line
+	7600 1400 7400 1400
+Connection ~ 7400 1400
+Wire Wire Line
+	7400 1400 7400 1500
+$Comp
+L Connector_Generic:Conn_02x04_Counter_Clockwise J2
+U 1 1 5C367DD7
+P 5550 3850
+F 0 "J2" H 5600 4167 50  0000 C CNN
+F 1 "DIL-8" H 5600 4076 50  0000 C CNN
+F 2 "Housings_DIP:DIP-8_W7.62mm_LongPads" H 5550 3850 50  0001 C CNN
+F 3 "~" H 5550 3850 50  0001 C CNN
+	1    5550 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x04_Counter_Clockwise J3
+U 1 1 5C367E65
+P 5550 4700
+F 0 "J3" H 5600 5017 50  0000 C CNN
+F 1 "SO-8" H 5600 4926 50  0000 C CNN
+F 2 "Housings_SOIC:SO-8_5.3x6.2mm_Pitch1.27mm" H 5550 4700 50  0001 C CNN
+F 3 "~" H 5550 4700 50  0001 C CNN
+	1    5550 4700
+	1    0    0    -1  
+$EndComp
+Text GLabel 5150 3750 0    50   Input ~ 0
+CS_DIL-8
+Text GLabel 8300 800  0    50   Input ~ 0
+MISO
+Text GLabel 8450 800  2    50   Input ~ 0
+MISO_L
+Wire Wire Line
+	8450 800  8300 800 
+Text GLabel 5150 3850 0    50   Input ~ 0
+MISO_L
+Text GLabel 5150 4050 0    50   Input ~ 0
+GND
+Text GLabel 5150 3950 0    50   Input ~ 0
+3.3V
+Text GLabel 6050 3750 2    50   Input ~ 0
+3.3V
+Text GLabel 6050 3950 2    50   Input ~ 0
+SCK_L
+Text GLabel 6050 4050 2    50   Input ~ 0
+MOSI_L
+Wire Wire Line
+	5150 3750 5350 3750
+Wire Wire Line
+	5150 3850 5350 3850
+Wire Wire Line
+	5150 3950 5350 3950
+Wire Wire Line
+	5150 4050 5350 4050
+Wire Wire Line
+	5850 3750 5950 3750
+Wire Wire Line
+	5850 3850 5950 3850
+Wire Wire Line
+	5950 3850 5950 3750
+Connection ~ 5950 3750
+Wire Wire Line
+	5950 3750 6050 3750
+Wire Wire Line
+	5850 3950 6050 3950
+Wire Wire Line
+	5850 4050 6050 4050
+Text GLabel 6050 4600 2    50   Input ~ 0
+3.3V
+Text GLabel 6050 4800 2    50   Input ~ 0
+SCK_L
+Text GLabel 6050 4900 2    50   Input ~ 0
+MOSI_L
+Text GLabel 5150 4900 0    50   Input ~ 0
+GND
+Text GLabel 5150 4800 0    50   Input ~ 0
+3.3V
+Text GLabel 5150 4700 0    50   Input ~ 0
+MISO_L
+Text GLabel 5150 4600 0    50   Input ~ 0
+CS_SO-8
+Wire Wire Line
+	5150 4600 5350 4600
+Wire Wire Line
+	5150 4700 5350 4700
+Wire Wire Line
+	5150 4800 5350 4800
+Wire Wire Line
+	5150 4900 5350 4900
+Wire Wire Line
+	5850 4600 5950 4600
+Wire Wire Line
+	5850 4700 5950 4700
+Wire Wire Line
+	5950 4700 5950 4600
+Connection ~ 5950 4600
+Wire Wire Line
+	5950 4600 6050 4600
+Wire Wire Line
+	5850 4800 6050 4800
+Wire Wire Line
+	5850 4900 6050 4900
+$Comp
+L Connector:Conn_01x03_Male J1
+U 1 1 5C3704B3
+P 5250 2850
+F 0 "J1" H 5356 3128 50  0000 C CNN
+F 1 "Chip Select" H 5356 3037 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 5250 2850 50  0001 C CNN
+F 3 "~" H 5250 2850 50  0001 C CNN
+	1    5250 2850
+	1    0    0    -1  
+$EndComp
+Text GLabel 5550 2850 2    50   Input ~ 0
+CS_L
+Wire Wire Line
+	5550 2850 5450 2850
+Text GLabel 5550 2750 2    50   Input ~ 0
+CS_DIL-8
+Text GLabel 5550 2950 2    50   Input ~ 0
+CS_SO-8
+Wire Wire Line
+	5550 2950 5450 2950
+Wire Wire Line
+	5550 2750 5450 2750
+$EndSCHEMATC
